@@ -27,12 +27,14 @@ use folding_schemes::{
     transcript::poseidon::poseidon_canonical_config,
     Decider, FoldingScheme,
 };
+/*
 use solidity_verifiers::{
     evm::{compile_solidity, Evm},
     utils::get_function_selector_for_nova_cyclefold_verifier,
     verifiers::nova_cyclefold::get_decider_template_for_cyclefold_decider,
     NovaCycleFoldVerifierKey,
 };
+*/
 
 fn main() {
     // set the initial state
@@ -55,12 +57,13 @@ fn main() {
 
     // initialize the Circom circuit
     let r1cs_path = PathBuf::from(
-        "./folding-schemes/src/frontend/circom/test_folder/with_external_inputs.r1cs",
+        "./circom/with_external_inputs.r1cs",
     );
-    let wasm_path = PathBuf::from(
-        "./folding-schemes/src/frontend/circom/test_folder/with_external_inputs_js/with_external_inputs.wasm",
-    );
+    assert!(r1cs_path.exists(), " file not found");
 
+    let wasm_path = PathBuf::from("./circom/with_external_inputs_js/with_external_inputs.wasm");
+    assert!(wasm_path.exists(), "WASM file not found");
+    
     let f_circuit_params = (r1cs_path, wasm_path, 1, 2);
     let f_circuit = CircomFCircuit::<Fr>::new(f_circuit_params).unwrap();
 
@@ -115,6 +118,7 @@ fn main() {
     assert!(verified);
     println!("Decider proof verification: {}", verified);
 
+    /*
     // Now, let's generate the Solidity code that verifies this Decider final proof
     let function_selector =
         get_function_selector_for_nova_cyclefold_verifier(nova.z_0.len() * 2 + 1);
@@ -154,4 +158,5 @@ fn main() {
     fs::write("./examples/solidity-calldata.calldata", calldata.clone()).unwrap();
     let s = solidity_verifiers::utils::get_formatted_calldata(calldata.clone());
     fs::write("./examples/solidity-calldata.inputs", s.join(",\n")).expect("");
+    */
 }
