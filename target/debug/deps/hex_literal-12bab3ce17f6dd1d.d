@@ -1,0 +1,8 @@
+/Users/yugo/zero_knowledge_proof/sonobe-circom-tutorial/target/debug/deps/libhex_literal-12bab3ce17f6dd1d.rmeta: /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-literal-0.4.1/src/lib.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-literal-0.4.1/src/../README.md
+
+/Users/yugo/zero_knowledge_proof/sonobe-circom-tutorial/target/debug/deps/libhex_literal-12bab3ce17f6dd1d.rlib: /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-literal-0.4.1/src/lib.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-literal-0.4.1/src/../README.md
+
+/Users/yugo/zero_knowledge_proof/sonobe-circom-tutorial/target/debug/deps/hex_literal-12bab3ce17f6dd1d.d: /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-literal-0.4.1/src/lib.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-literal-0.4.1/src/../README.md
+
+/Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-literal-0.4.1/src/lib.rs:
+/Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hex-literal-0.4.1/src/../README.md:

@@ -1,0 +1,14 @@
+/Users/yugo/zero_knowledge_proof/sonobe-circom-tutorial/target/debug/deps/libwasmer_engine_universal-3018f5138c781e39.rmeta: /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/lib.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/artifact.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/builder.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/code_memory.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/engine.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/link.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/unwind/mod.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/unwind/systemv.rs
+
+/Users/yugo/zero_knowledge_proof/sonobe-circom-tutorial/target/debug/deps/wasmer_engine_universal-3018f5138c781e39.d: /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/lib.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/artifact.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/builder.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/code_memory.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/engine.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/link.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/unwind/mod.rs /Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/unwind/systemv.rs
+
+/Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/lib.rs:
+/Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/artifact.rs:
+/Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/builder.rs:
+/Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/code_memory.rs:
+/Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/engine.rs:
+/Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/link.rs:
+/Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/unwind/mod.rs:
+/Users/yugo/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wasmer-engine-universal-2.3.0/src/unwind/systemv.rs:
+
+# env-dep:CARGO_PKG_VERSION=2.3.0
