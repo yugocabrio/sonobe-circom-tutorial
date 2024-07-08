@@ -1265,35 +1265,7 @@ checksum = "3f9eec918d3f24069decb9af1554cad7c880e2da24a9afd88aca000531ab82c1"
 [[package]]
 name = "folding-schemes"
 version = "0.1.0"
-source = "git+https://github.com/privacy-scaling-explorations/sonobe.git?branch=main#c17fcf56c61777226ac5e54564d5a38b2ebe4e10"
-dependencies = [
- "ark-bn254",
- "ark-circom",
- "ark-crypto-primitives",
- "ark-ec",
- "ark-ff",
- "ark-groth16",
- "ark-grumpkin",
- "ark-poly",
- "ark-poly-commit",
- "ark-r1cs-std",
- "ark-relations",
- "ark-serialize",
- "ark-snark",
- "ark-std",
- "color-eyre",
- "num-bigint",
- "num-integer",
- "rayon",
- "sha3",
- "subroutines",
- "thiserror",
-]
-
-[[package]]
-name = "folding-schemes"
-version = "0.1.0"
-source = "git+https://github.com/privacy-scaling-explorations/sonobe.git#c17fcf56c61777226ac5e54564d5a38b2ebe4e10"
+source = "git+https://github.com/privacy-scaling-explorations/sonobe.git#16d51d757b2c80a9f1cc4ac29930235895064ff4"
 dependencies = [
  "ark-bn254",
  "ark-circom",
@@ -2769,7 +2741,7 @@ checksum = "3c5e1a9a646d36c3599cd173a41282daf47c44583ad367b8e6837255952e5c67"
 [[package]]
 name = "solidity-verifiers"
 version = "0.1.0"
-source = "git+https://github.com/privacy-scaling-explorations/sonobe.git?branch=main#c17fcf56c61777226ac5e54564d5a38b2ebe4e10"
+source = "git+https://github.com/privacy-scaling-explorations/sonobe.git#16d51d757b2c80a9f1cc4ac29930235895064ff4"
 dependencies = [
  "ark-bn254",
  "ark-ec",
@@ -2780,7 +2752,7 @@ dependencies = [
  "ark-serialize",
  "ark-std",
  "askama",
- "folding-schemes 0.1.0 (git+https://github.com/privacy-scaling-explorations/sonobe.git?branch=main)",
+ "folding-schemes",
  "itertools 0.12.1",
  "num-bigint",
  "revm",
@@ -2798,10 +2770,9 @@ dependencies = [
  "ark-groth16",
  "ark-grumpkin",
  "ark-poly-commit",
- "ark-r1cs-std",
  "ark-relations",
  "ark-std",
- "folding-schemes 0.1.0 (git+https://github.com/privacy-scaling-explorations/sonobe.git)",
+ "folding-schemes",
  "hex",
  "hex-literal",
  "num-bigint",

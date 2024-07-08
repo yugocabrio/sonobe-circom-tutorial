@@ -17,6 +17,9 @@ use ark_grumpkin::{constraints::GVar as GVar2, Projective as G2};
 use std::path::PathBuf;
 use std::time::Instant;
 
+//mod utils;
+//use utils::init_ivc_and_decider_params;
+
 use folding_schemes::{
     commitment::{kzg::KZG, pedersen::Pedersen},
     folding::nova::{
@@ -27,14 +30,13 @@ use folding_schemes::{
     transcript::poseidon::poseidon_canonical_config,
     Decider, FoldingScheme,
 };
-/*
 use solidity_verifiers::{
     evm::{compile_solidity, Evm},
     utils::get_function_selector_for_nova_cyclefold_verifier,
     verifiers::nova_cyclefold::get_decider_template_for_cyclefold_decider,
     NovaCycleFoldVerifierKey,
 };
-*/
+
 
 fn main() {
     // set the initial state
@@ -59,7 +61,7 @@ fn main() {
     let r1cs_path = PathBuf::from(
         "./circom/with_external_inputs.r1cs",
     );
-    assert!(r1cs_path.exists(), " file not found");
+    assert!(r1cs_path.exists(), "R1CS file not found");
 
     let wasm_path = PathBuf::from("./circom/with_external_inputs_js/with_external_inputs.wasm");
     assert!(wasm_path.exists(), "WASM file not found");
@@ -90,6 +92,7 @@ fn main() {
     // initialize the folding scheme engine, in our case we use Nova
     let mut nova = N::init(nova_params.clone(), f_circuit.clone(), z_0).unwrap();
 
+    /*
     // prepare the Decider prover & verifier params
     let (decider_pp, decider_vp) = D::preprocess(&mut rng, &nova_params, nova.clone()).unwrap();
 
@@ -117,6 +120,7 @@ fn main() {
     .unwrap();
     assert!(verified);
     println!("Decider proof verification: {}", verified);
+    */
 
     /*
     // Now, let's generate the Solidity code that verifies this Decider final proof
